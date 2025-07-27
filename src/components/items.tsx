@@ -11,6 +11,7 @@ const Itemlist = (item:items) => {
             <li>{item.item1}<button>Edit</button><button>Delete</button></li>
             <li>{item.item2}<button>Edit</button><button>Delete</button></li>
             <li>{item.item3}<button>Edit</button><button>Delete</button></li>
+            
     </ul>      
     )
 }
