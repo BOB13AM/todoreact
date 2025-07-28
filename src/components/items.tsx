@@ -4,9 +4,9 @@ import List from "./list";
 function Itemlist(){
     
     return(
-        <div>
+        <ul>
             <List/>
-        </div>
+        </ul>
          
  
         )     
