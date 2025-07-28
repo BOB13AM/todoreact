@@ -6,11 +6,11 @@ import Txtfield from './components/txtfield'
 function APP() {
 
   return (
-    <div>
+    <>
       <Todo/>
       <List/>
       <Txtfield />
-    </div>
+    </>
   )
 }
 

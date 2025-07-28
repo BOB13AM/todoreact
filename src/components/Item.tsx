@@ -6,14 +6,12 @@ interface ItemProps {
 
 
 function Item(itemProps: ItemProps) {
-    return(
-        <>
+    return(     
         <li>
             {itemProps.itemName}
             <button>Edit</button>
             <button>Delete</button>
         </li>
-        </>
     )
 }
 
