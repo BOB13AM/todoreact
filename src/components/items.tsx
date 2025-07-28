@@ -1,15 +1,14 @@
+import List from "./list";
 
-const numbers = [1, 2, 3];
 
-
-const Itemlist = () => {
+function Itemlist(){
     
     return(
-        <ul>
-            {numbers.map(num => 
-            <li>{num}<button>Edit</button><button>Delete</button></li>
-             )}
-        </ul> 
+        <div>
+            <List/>
+        </div>
+         
+ 
         )     
    
 }
