@@ -1,6 +1,6 @@
 import './App.css'
 import Todo from './components/todo'
-import Itemlist from './components/items'
+import List from './components/List'
 import Txtfield from './components/txtfield'
 
 function APP() {
@@ -8,7 +8,7 @@ function APP() {
   return (
     <div>
       <Todo/>
-      <Itemlist/>
+      <List/>
       <Txtfield />
     </div>
   )

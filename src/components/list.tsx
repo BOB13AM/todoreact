@@ -1,17 +1,21 @@
+import Item from "./Item"
 
-const numbers = [1, 2, 3];
+
+const numbers = ['1', '2', '3'];
 
 
-const  Listitems = () => {
+const  List = () => {
     return(
-        <div>
-              {numbers.map(num => 
-                <li key={num}>{num}<button>Edit</button><button>Delete</button></li>
-            )}
+        <ul>
+             {numbers.map(num => 
+                <Item itemName={num}/>
+                )}
+        </ul>
+             
      
-        </div>
+    
     )
 }
 
 
-export default Listitems;    
+export default List;    
