@@ -8,7 +8,7 @@ function APP() {
   return (
     <div>
       <Todo/>
-      <Itemlist item1={1} item2={2} item3={3} />
+      <Itemlist/>
       <Txtfield />
     </div>
   )
